@@ -12,22 +12,31 @@ const Hero = () => {
         <img src={Logo} />
         <ul>
           <li>
-            <a>Sign Up</a>
+            <a href="#">Sign Up</a>
           </li>
           <li>
-            <a>Log In</a>
+            <a href="#">Log In</a>
           </li>
         </ul>
       </nav>
 
-      <motion.div
-        className="headings"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-      >
-        <h2>Industry experts within your</h2>
-        <h1>Fingertips</h1>
+      <motion.div className="headings">
+        <motion.h2
+          initial={{ opacity: 0, y: -200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 1 }}
+          viewport={{ once: true }}
+        >
+          Industry experts within your
+        </motion.h2>
+        <motion.h1
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 4, duration: 1 }}
+          viewport={{ once: true }}
+        >
+          Fingertips
+        </motion.h1>
       </motion.div>
     </main>
   );

@@ -5,6 +5,7 @@ import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Details from "./Components/Details/Details";
 import Awards from "./Components/Awards/Awards";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
       <Hero />
       <Details />
       <Awards />
+      <Footer />
     </React.Fragment>
   );
 }
