@@ -38,6 +38,7 @@ nav ul li a {
 .headings h2 {
   font-size: 64px;
   font-weight: 600;
+  color: #d0d0d0;
 }
 
 .headings h1 {
@@ -53,6 +54,7 @@ nav ul li a {
     rgb(123, 31, 162)
   );
   background-size: 200%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textPanning 4s infinite ease-in-out;

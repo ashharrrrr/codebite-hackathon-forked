@@ -1,0 +1,29 @@
+.details {
+  position: relative;
+  background-color: #060e14;
+  color: #fff;
+  overflow: hidden;
+}
+
+.text-container {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.text-height {
+  line-height: 1.1;
+}
+
+.details-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+}

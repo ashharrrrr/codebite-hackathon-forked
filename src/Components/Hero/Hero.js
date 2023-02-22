@@ -1,4 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
+
+import { motion } from "framer-motion";
 
 import "./Hero.css";
 import Logo from "../../assets/gem-regular.svg";
@@ -18,10 +20,15 @@ const Hero = () => {
         </ul>
       </nav>
 
-      <div className="headings">
+      <motion.div
+        className="headings"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 1 }}
+      >
         <h2>Industry experts within your</h2>
         <h1>Fingertips</h1>
-      </div>
+      </motion.div>
     </main>
   );
 };

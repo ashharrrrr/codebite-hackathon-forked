@@ -1,0 +1,147 @@
+.awards {
+  background-color: #060e14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 250px;
+}
+
+.awards-heading {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.ai-card {
+  max-width: 700px;
+  background-color: #242424;
+  padding: 61px 56px 58px 60px;
+  border: 1px solid hsla(0, 0%, 51%, 0.16);
+  border-radius: 20px;
+}
+
+.card-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card-paragraph {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #d0d0d0;
+  line-height: 1.5;
+}
+
+.award-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.award-card {
+  background-color: #242424;
+  width: 328px;
+  height: 210px;
+  border: 1px solid hsla(0, 0%, 51%, 0.16);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.award-text {
+  font-size: 64px;
+  font-weight: 700;
+  background: linear-gradient(45deg, #30a8bc, #4dda68);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.position-text {
+  font-size: 64px;
+  font-weight: 700;
+  background: linear-gradient(315deg, #1860c4, #58d0d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.freelancer-text {
+  font-size: 64px;
+  font-weight: 700;
+  background: linear-gradient(45deg, #5138ec, #b561f9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.percent-text {
+  font-size: 64px;
+  font-weight: 700;
+  background: linear-gradient(315deg, #c84591, #f7a17b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.award-subtext {
+  color: #d0d0d0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.showcase {
+  width: 100%;
+  background: linear-gradient(90deg, #e7505e, #cb5891 35%, #a364dc);
+  padding: 65px 90px 65px 66px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.showcase-text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  max-width: 440px;
+}
+
+.showcase-heading {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 400px;
+  margin-top: 40px;
+}
+
+.showcase-paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.screen {
+  height: 370px;
+}
+
+.screen-container {
+  position: relative;
+}
+
+.showcase-background {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  width: 80%;
+}
